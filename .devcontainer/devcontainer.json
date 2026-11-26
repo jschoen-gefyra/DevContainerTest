@@ -1,6 +1,6 @@
 {
   "name": "FHIR IG Generator Dev Container",
-  "image": "ghcr.io/gefyra/igpublisher-devcontainer-image:latest",
+  "image": "ghcr.io/gefyra/igpublisher-devcontainer-image:test",
   "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
   "updateRemoteUserUID": true,
   "overrideCommand": true,

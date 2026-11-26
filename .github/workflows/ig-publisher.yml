@@ -41,7 +41,7 @@ jobs:
     # An IG build that hangs would otherwise sit in the default 6h timeout.
     timeout-minutes: 45
     container:
-      image: ghcr.io/gefyra/ig-publisher:latest
+      image: ghcr.io/gefyra/ig-publisher:test
     env:
       INPUT_DIR: .
 
