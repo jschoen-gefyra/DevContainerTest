@@ -80,7 +80,7 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          igpublisher -ig ${{ env.INPUT_DIR }} -no-sushi
+          igpublisher -ig ${{ env.INPUT_DIR }} -no-sushi -allow-committed-scripts
 
       # Uploaded before the QA gate, so a failing build still leaves qa.html
       # behind to look at.
