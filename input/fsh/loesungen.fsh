@@ -6,7 +6,8 @@ Alias: $SpeciesVS = http://fhir.ufp/ValueSet/species
 Extension: Planet
 Id: Planet
 Description: "Extension for DataType `Address` to add information about the planet on which the address is located."
-* ^url = "http://fhir.ufp/StructureDefinition/planet"
+// Ohne ^url: die Kopie bekommt die Canonical dieses IG. Die URL http://fhir.ufp/StructureDefinition/planet
+// gehört der Extension in ufp.core - eine zweite Definition darunter ist im IG Publisher ein Fehler.
 * ^context.type = #element
 * ^context.expression = "Address"
 * value[x] only string
