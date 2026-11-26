@@ -64,6 +64,8 @@ In your new repository, go to **Settings → Pages** and set the source to the `
 
 6. **Read the report.** `output/qa.html` lists every validation message. It is the file to check before sharing anything.
 
+**Writing in German?** The IG Publisher assumes English and renders the text it generates — headings, labels, table headers — in English. To switch, uncomment `parameters:` and the `i18n-default-lang: de` line beneath it in `sushi-config.yaml`. Other language codes work the same way.
+
 New to FHIR Shorthand? [FSH School](https://fshschool.org/) is the place to learn it.
 
 ## Everyday workflow
@@ -79,9 +81,10 @@ Run tasks with `F1` → `Tasks: Run Task`. The default build task is **"IG Publi
 | **Serve IG Locally** | Serves `output/` for preview |
 | **Git: Commit & Push** | Stages everything, commits, and pushes the branch |
 | **Download: IG Package** | Points at `output/full-ig.zip` |
+| **Download: AI Package** | Points at `output/<lang>/ai.zip`, the guide as Markdown for AI tools |
 | **Download: JSON Resources** | Packs `fsh-generated/resources/*.json` into a ZIP |
 
-The tasks call commands the container image ships (`ig-update-publisher`, `ig-commit`, `ig-package`, `ig-json-resources`). That keeps `tasks.json` stable: when the logic behind them changes, it arrives with the next image and this file stays untouched.
+The tasks call commands the container image ships (`ig-update-publisher`, `ig-commit`, `ig-package`, `ig-ai-package`, `ig-json-resources`). That keeps `tasks.json` stable: when the logic behind them changes, it arrives with the next image and this file stays untouched.
 
 **Git: Commit & Push** stages everything in one go, which is what makes it a single button. To pick individual files or read a diff before committing, use VS Code's **Source Control** panel instead — the task lists what it staged, but does not let you change it.
 
@@ -107,6 +110,7 @@ Worth knowing:
 - The branch name is used verbatim as a path: `feature/x` becomes `branches/feature/x/`.
 - Deleting a branch removes its preview, immediately and again in a weekly sweep. The "Clean up branch previews" workflow can also be started by hand via "Run workflow".
 - **`full-ig.zip` is not published.** It changes wholesale on every build and nothing on the site links to it. The package tarballs (`package*.tgz`) do stay, so a consuming IG can point at a branch build or a released version.
+- The **Downloads** page (`input/pagecontent/downloads.md`) links the package, the definitions and examples, and `ai.zip` — the guide as Markdown for AI tools. It also carries the dependency table, cross-version analysis and IP statements the publisher expects every IG to show.
 - `gh-pages` is rewritten as a single root commit on every publish. Pages serves only the current tree, and keeping history would retain every past build's binaries forever.
 - Pages needs a few minutes after the build before a change is visible.
 
@@ -115,7 +119,7 @@ Worth knowing:
 On every start the container reports what you are building with:
 
 ```
-IG Publisher 2.3.2 (from the image, 2026-08-14)
+IG Publisher 3.0.6 (from the image, 2026-11-25)
 ```
 
 Once the jar is older than 14 days it adds a hint. There are two ways to update, and which one is right depends on what you need.
@@ -154,7 +158,7 @@ The "Update IG Publisher" task replaces the link with a real file, which it has 
 | [IG Publisher](https://confluence.hl7.org/display/FHIR/IG+Publisher+Documentation) | Builds the Implementation Guide |
 | [SUSHI](https://fshschool.org/docs/sushi/) | Compiles FHIR Shorthand into resources |
 | `fhir-pkg-tool` | Downloads and snapshots dependencies |
-| Java 21, Node 20, Ruby + Jekyll | Runtimes the publisher needs |
+| Java 21, Node 24, Ruby + Jekyll | Runtimes the publisher needs |
 | `python3` | Local preview server |
 | `zip` / `unzip`, `git`, `curl`, `sudo` | Everyday tools |
 

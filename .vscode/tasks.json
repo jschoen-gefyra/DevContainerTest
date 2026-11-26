@@ -98,6 +98,18 @@
       "problemMatcher": []
     },
     {
+      "label": "Download: AI Package",
+      "type": "shell",
+      "command": "ig-ai-package",
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": false,
+        "panel": "shared"
+      },
+      "problemMatcher": []
+    },
+    {
       "label": "Download: JSON Resources",
       "type": "shell",
       "command": "ig-json-resources",
@@ -114,8 +126,8 @@
     {
       "id": "commitMessage",
       "type": "promptString",
-      "description": "Commit-Nachricht eingeben",
-      "default": "Änderungen gespeichert"
+      "description": "Commit message",
+      "default": "Save changes"
     }
   ]
 }

@@ -64,6 +64,8 @@ Im neuen Repository unter **Settings → Pages** als Quelle den Branch `gh-pages
 
 6. **Bericht prüfen.** `output/qa.html` enthält sämtliche Validierungsmeldungen und sollte vor jeder Weitergabe gelesen werden.
 
+**IG auf Deutsch?** Der IG Publisher geht von Englisch aus und erzeugt seine eigenen Texte — Überschriften, Beschriftungen, Tabellenköpfe — auf Englisch. Zum Umstellen in `sushi-config.yaml` `parameters:` und die Zeile `i18n-default-lang: de` darunter einkommentieren. Andere Sprachcodes funktionieren genauso.
+
 Einstieg in FHIR Shorthand: [FSH School](https://fshschool.org/).
 
 ## Täglicher Ablauf
@@ -79,9 +81,10 @@ Tasks werden über `F1` → `Tasks: Run Task` gestartet. Standard-Build-Task ist
 | **Serve IG Locally** | Stellt `output/` zur Vorschau bereit |
 | **Git: Commit & Push** | Staged alles, committet und pusht den Branch |
 | **Download: IG Package** | Weist auf `output/full-ig.zip` hin |
+| **Download: AI Package** | Weist auf `output/<lang>/ai.zip` hin, den IG als Markdown für KI-Werkzeuge |
 | **Download: JSON Resources** | Packt `fsh-generated/resources/*.json` als ZIP |
 
-Die Tasks rufen Kommandos auf, die das Container-Image mitbringt (`ig-update-publisher`, `ig-commit`, `ig-package`, `ig-json-resources`). Dadurch bleibt `tasks.json` stabil: ändert sich die Logik dahinter, kommt sie mit dem nächsten Image, ohne dass diese Datei angepasst werden muss.
+Die Tasks rufen Kommandos auf, die das Container-Image mitbringt (`ig-update-publisher`, `ig-commit`, `ig-package`, `ig-ai-package`, `ig-json-resources`). Dadurch bleibt `tasks.json` stabil: ändert sich die Logik dahinter, kommt sie mit dem nächsten Image, ohne dass diese Datei angepasst werden muss.
 
 **Git: Commit & Push** staged pauschal alles — nur so bleibt es ein einzelner Button. Für einzelne Dateien oder einen Blick auf den Diff vor dem Commit eignet sich das **Source-Control**-Panel von VS Code: der Task zeigt zwar an, was er gestaged hat, lässt aber keine Auswahl zu.
 
@@ -107,6 +110,7 @@ Wissenswert:
 - Der Branch-Name wird unverändert als Pfad verwendet: `feature/x` landet unter `branches/feature/x/`.
 - Beim Löschen eines Branches verschwindet seine Vorschau — sofort und noch einmal in der wöchentlichen Nachlese. Der Workflow „Clean up branch previews" lässt sich über „Run workflow" auch manuell starten.
 - **`full-ig.zip` wird nicht veröffentlicht.** Es ändert sich bei jedem Build vollständig und wird von der Seite nirgends verlinkt. Die Package-Tarballs (`package*.tgz`) bleiben erhalten, damit ein konsumierender IG auf einen Branch- oder Release-Stand verweisen kann.
+- Die Seite **Downloads** (`input/pagecontent/downloads.md`) verlinkt das Package, Definitionen und Beispiele sowie `ai.zip` — den IG als Markdown für KI-Werkzeuge. Außerdem enthält sie Abhängigkeitstabelle, Cross-Version-Analyse und IP-Statements, die der Publisher in jedem IG erwartet.
 - `gh-pages` wird bei jeder Veröffentlichung als einzelner Root-Commit neu geschrieben. Pages liefert ohnehin nur den aktuellen Stand aus; mit Historie lägen dort die Binärdateien jedes je gebauten Stands dauerhaft.
 - Nach dem Build vergehen einige Minuten, bis Pages die Änderung ausliefert.
 
@@ -115,7 +119,7 @@ Wissenswert:
 Bei jedem Start meldet der Container die verwendete Version:
 
 ```
-IG Publisher 2.3.2 (from the image, 2026-08-14)
+IG Publisher 3.0.6 (from the image, 2026-11-25)
 ```
 
 Ist das Jar älter als 14 Tage, erscheint zusätzlich ein Hinweis. Zum Aktualisieren gibt es zwei Wege.
@@ -154,7 +158,7 @@ Der Task „Update IG Publisher" ersetzt den Link durch eine echte Datei — not
 | [IG Publisher](https://confluence.hl7.org/display/FHIR/IG+Publisher+Documentation) | Baut den Implementation Guide |
 | [SUSHI](https://fshschool.org/docs/sushi/) | Übersetzt FHIR Shorthand in Ressourcen |
 | `fhir-pkg-tool` | Lädt Abhängigkeiten und erzeugt Snapshots |
-| Java 21, Node 20, Ruby + Jekyll | Laufzeiten des Publishers |
+| Java 21, Node 24, Ruby + Jekyll | Laufzeiten des Publishers |
 | `python3` | Lokaler Vorschau-Server |
 | `zip` / `unzip`, `git`, `curl`, `sudo` | Allgemeine Werkzeuge |
 
