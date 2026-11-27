@@ -1,0 +1,26 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "QuadrantVS",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet QuadrantVS</b></p><a name=\"QuadrantVS\"> </a><a name=\"hcQuadrantVS\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-QuadrantCS.html\"><code>http://gefyra.info/training/CodeSystem/QuadrantCS</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span></li></ul></div>"
+  },
+  "url" : "http://gefyra.info/training/ValueSet/QuadrantVS",
+  "version" : "0.1.0",
+  "name" : "QuadrantVS",
+  "status" : "draft",
+  "date" : "2026-11-27T11:50:37+00:00",
+  "publisher" : "Gefyra GmbH",
+  "contact" : [{
+    "name" : "Gefyra GmbH",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://gefyra.info/"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "http://gefyra.info/training/CodeSystem/QuadrantCS"
+    }]
+  }
+}

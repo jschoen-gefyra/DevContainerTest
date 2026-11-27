@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Patient xmlns="http://hl7.org/fhir">
+  <id value="MeinBeispielPatient"/>
+  <meta>
+    <profile value="http://gefyra.info/training/StructureDefinition/MeinPatient"/>
+  </meta>
+  <language value="de"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Patient MeinBeispielPatient</b></p><a name="MeinBeispielPatient"> </a><a name="hcMeinBeispielPatient"> </a><div style="display: inline-block; background-color: #fbffeb; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profil: <a href="StructureDefinition-MeinPatient.html">MeinPatient</a></p></div><p style="border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;">Max Mustermann  Male, DoB: 2222-12-22 ( http://fhir.ufp/sid/ufp-citizen-id#12341kjhkjh12341423)</p><hr/><table class="grid"><tr><td style="background-color: #f3f5da" title="Ways to contact the Patient">Contact Detail</td><td colspan="3">Teststr. 4 Musterhausen 12345 </td></tr><tr><td style="background-color: #f3f5da"><a href="StructureDefinition-Species.html"/></td><td colspan="3"><span title="Codes:{http://fhir.ufp/CodeSystem/species HS}">Human</span></td></tr></table></div>
+  </text>
+  <extension url="http://gefyra.info/training/StructureDefinition/Species">
+    <valueCodeableConcept>
+      <coding>
+        <system value="http://fhir.ufp/CodeSystem/species"/>
+        <code value="HS"/>
+        <display value="Human"/>
+      </coding>
+    </valueCodeableConcept>
+  </extension>
+  <identifier>
+    <system value="http://fhir.ufp/sid/ufp-citizen-id"/>
+    <value value="12341kjhkjh12341423"/>
+  </identifier>
+  <name>
+    <family value="Mustermann"/>
+    <given value="Max"/>
+  </name>
+  <gender value="male"/>
+  <birthDate value="2222-12-22"/>
+  <address>
+    <extension url="http://gefyra.info/training/StructureDefinition/Planet">
+      <valueString value="Erde"/>
+    </extension>
+    <extension url="http://gefyra.info/training/StructureDefinition/Quadrant">
+      <valueCode value="alpha"/>
+    </extension>
+    <line value="Teststr. 4"/>
+    <city value="Musterhausen"/>
+    <postalCode value="12345"/>
+  </address>
+</Patient>

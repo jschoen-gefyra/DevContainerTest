@@ -1,0 +1,10 @@
+{
+  "codeSystems" : [{
+    "url" : "http://gefyra.info/training/CodeSystem/QuadrantCS",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "QuadrantCS",
+    "title" : null,
+    "description" : ""
+  }]
+}

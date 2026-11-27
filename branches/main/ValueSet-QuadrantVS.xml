@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="QuadrantVS"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet QuadrantVS</b></p><a name="QuadrantVS"> </a><a name="hcQuadrantVS"> </a><ul><li>Include all codes defined in <a href="CodeSystem-QuadrantCS.html"><code>http://gefyra.info/training/CodeSystem/QuadrantCS</code></a><span title="Version is not explicitly stated, which means it is fixed to the version provided in this specification"> version &#x1F4E6;0.1.0</span></li></ul></div>
+  </text>
+  <url value="http://gefyra.info/training/ValueSet/QuadrantVS"/>
+  <version value="0.1.0"/>
+  <name value="QuadrantVS"/>
+  <status value="draft"/>
+  <date value="2026-11-27T11:50:37+00:00"/>
+  <publisher value="Gefyra GmbH"/>
+  <contact>
+    <name value="Gefyra GmbH"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://gefyra.info/"/>
+    </telecom>
+  </contact>
+  <compose>
+    <include>
+      <system value="http://gefyra.info/training/CodeSystem/QuadrantCS"/>
+    </include>
+  </compose>
+</ValueSet>

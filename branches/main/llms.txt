@@ -1,0 +1,44 @@
+# info.gefyra.training#0.1.0: Schulungs-IG(de)
+
+## Pages
+
+* [Home](de/index.md)
+* [Downloads](de/downloads.md)
+* [Changelog](de/changelog.md)
+* [Artefaktübersicht](de/artifacts.md)
+
+## Resources
+
+### CodeSystems
+
+* [QuadrantCS](de/CodeSystem-QuadrantCS.md)
+
+### ValueSets
+
+* [QuadrantVS](de/ValueSet-QuadrantVS.md)
+
+### Complex-type Profiles
+
+* [AdrTestTest](de/StructureDefinition-AdrTestTest.md)
+* [MeineAdresse](de/StructureDefinition-MeineAdresse.md)
+
+### Resource Profiles
+
+* [MeinPatient](de/StructureDefinition-MeinPatient.md)
+* [MyPatient](de/StructureDefinition-MyPatient.md)
+
+### Extensions
+
+* [Ex](de/StructureDefinition-Ex.md)
+* [Planet](de/StructureDefinition-Planet.md)
+* [Quadrant](de/StructureDefinition-Quadrant.md)
+* [Species](de/StructureDefinition-Species.md)
+
+### ImplementationGuides
+
+* [Schulungs-IG](de/ImplementationGuide-info.gefyra.training.md)
+
+### Examples
+
+* [MeinBeispielPatient (Patient)](de/Patient-MeinBeispielPatient.md)
+* [PatientExample (Patient)](de/Patient-PatientExample.md)

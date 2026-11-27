@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="ae3f807a-f6d8-4bfe-b73f-95312d51156f"/>
+  <meta>
+    <lastUpdated value="2026-11-27T11:50:37.427+00:00"/>
+  </meta>
+  <type value="collection"/>
+  <entry>
+    <fullUrl value="http://gefyra.info/training/ValueSet/QuadrantVS"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-QuadrantCS.html">codesystem QuadrantCS v0.1.0 (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="http://gefyra.info/training/CodeSystem/QuadrantCS|0.1.0" title="Click to Copy URL" class="btn-copy" aria-label="copy"> </button>
+              </span>
+            </p>
+            <p>This value set contains 4 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (de)</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://gefyra.info/training/CodeSystem/QuadrantCS-alpha"> </a>
+                  <code>http://gefyra.info/training/CodeSystem/QuadrantCS</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-QuadrantCS.html#QuadrantCS-alpha">alpha</a>
+                </td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://gefyra.info/training/CodeSystem/QuadrantCS&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;alpha&quot;}" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://gefyra.info/training/CodeSystem/QuadrantCS&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;alpha&quot;/&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://gefyra.info/training/CodeSystem/QuadrantCS-beta"> </a>
+                  <code>http://gefyra.info/training/CodeSystem/QuadrantCS</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-QuadrantCS.html#QuadrantCS-beta">beta</a>
+                </td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://gefyra.info/training/CodeSystem/QuadrantCS&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;beta&quot;}" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://gefyra.info/training/CodeSystem/QuadrantCS&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;beta&quot;/&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://gefyra.info/training/CodeSystem/QuadrantCS-gamma"> </a>
+                  <code>http://gefyra.info/training/CodeSystem/QuadrantCS</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-QuadrantCS.html#QuadrantCS-gamma">gamma</a>
+                </td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://gefyra.info/training/CodeSystem/QuadrantCS&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;gamma&quot;}" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://gefyra.info/training/CodeSystem/QuadrantCS&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;gamma&quot;/&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://gefyra.info/training/CodeSystem/QuadrantCS-delta"> </a>
+                  <code>http://gefyra.info/training/CodeSystem/QuadrantCS</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-QuadrantCS.html#QuadrantCS-delta">delta</a>
+                </td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://gefyra.info/training/CodeSystem/QuadrantCS&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;delta&quot;}" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://gefyra.info/training/CodeSystem/QuadrantCS&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;delta&quot;/&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://gefyra.info/training/ValueSet/QuadrantVS"/>
+        <version value="0.1.0"/>
+        <name value="QuadrantVS"/>
+        <status value="draft"/>
+        <date value="2026-11-27T11:50:37+00:00"/>
+        <expansion>
+          <identifier value="urn:uuid:0824a6dd-94e3-4d2f-bcbc-d3b67a7077f0"/>
+          <timestamp value="2026-11-27T11:51:07+00:00"/>
+          <total value="4"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="de"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://gefyra.info/training/CodeSystem/QuadrantCS|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="http://gefyra.info/training/CodeSystem/QuadrantCS"/>
+            <code value="alpha"/>
+          </contains>
+          <contains>
+            <system value="http://gefyra.info/training/CodeSystem/QuadrantCS"/>
+            <code value="beta"/>
+          </contains>
+          <contains>
+            <system value="http://gefyra.info/training/CodeSystem/QuadrantCS"/>
+            <code value="gamma"/>
+          </contains>
+          <contains>
+            <system value="http://gefyra.info/training/CodeSystem/QuadrantCS"/>
+            <code value="delta"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://gefyra.info/training/ValueSet/QuadrantVS"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-QuadrantCS.html">codesystem QuadrantCS v0.1.0 (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="http://gefyra.info/training/CodeSystem/QuadrantCS|0.1.0" title="Click to Copy URL" class="btn-copy" aria-label="copy"> </button>
+              </span>
+            </p>
+            <p>This value set contains 4 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (de)</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://gefyra.info/training/CodeSystem/QuadrantCS-alpha"> </a>
+                  <code>http://gefyra.info/training/CodeSystem/QuadrantCS</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-QuadrantCS.html#QuadrantCS-alpha">alpha</a>
+                </td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://gefyra.info/training/CodeSystem/QuadrantCS&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;alpha&quot;}" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://gefyra.info/training/CodeSystem/QuadrantCS&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;alpha&quot;/&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://gefyra.info/training/CodeSystem/QuadrantCS-beta"> </a>
+                  <code>http://gefyra.info/training/CodeSystem/QuadrantCS</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-QuadrantCS.html#QuadrantCS-beta">beta</a>
+                </td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://gefyra.info/training/CodeSystem/QuadrantCS&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;beta&quot;}" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://gefyra.info/training/CodeSystem/QuadrantCS&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;beta&quot;/&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://gefyra.info/training/CodeSystem/QuadrantCS-gamma"> </a>
+                  <code>http://gefyra.info/training/CodeSystem/QuadrantCS</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-QuadrantCS.html#QuadrantCS-gamma">gamma</a>
+                </td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://gefyra.info/training/CodeSystem/QuadrantCS&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;gamma&quot;}" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://gefyra.info/training/CodeSystem/QuadrantCS&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;gamma&quot;/&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://gefyra.info/training/CodeSystem/QuadrantCS-delta"> </a>
+                  <code>http://gefyra.info/training/CodeSystem/QuadrantCS</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-QuadrantCS.html#QuadrantCS-delta">delta</a>
+                </td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://gefyra.info/training/CodeSystem/QuadrantCS&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;delta&quot;}" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://gefyra.info/training/CodeSystem/QuadrantCS&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;delta&quot;/&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://gefyra.info/training/ValueSet/QuadrantVS"/>
+        <version value="0.1.0"/>
+        <name value="QuadrantVS"/>
+        <status value="draft"/>
+        <date value="2026-11-27T11:50:37+00:00"/>
+        <expansion>
+          <identifier value="urn:uuid:0824a6dd-94e3-4d2f-bcbc-d3b67a7077f0"/>
+          <timestamp value="2026-11-27T11:51:07+00:00"/>
+          <total value="4"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="de"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://gefyra.info/training/CodeSystem/QuadrantCS|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="http://gefyra.info/training/CodeSystem/QuadrantCS"/>
+            <code value="alpha"/>
+          </contains>
+          <contains>
+            <system value="http://gefyra.info/training/CodeSystem/QuadrantCS"/>
+            <code value="beta"/>
+          </contains>
+          <contains>
+            <system value="http://gefyra.info/training/CodeSystem/QuadrantCS"/>
+            <code value="gamma"/>
+          </contains>
+          <contains>
+            <system value="http://gefyra.info/training/CodeSystem/QuadrantCS"/>
+            <code value="delta"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+</Bundle>

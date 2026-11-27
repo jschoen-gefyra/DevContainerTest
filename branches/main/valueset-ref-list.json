@@ -1,0 +1,26 @@
+{
+  "codeSystems" : [{
+    "url" : "http://fhir.ufp/ValueSet/species",
+    "version" : null,
+    "status" : "draft",
+    "name" : "species",
+    "title" : null,
+    "description" : "Species known to the United Federation of Planets",
+    "systems" : ["http://fhir.ufp/CodeSystem/species"],
+    "uses" : {
+    },
+    "StructureDefinition-Species.html" : "Species"
+  },
+  {
+    "url" : "http://gefyra.info/training/ValueSet/QuadrantVS",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "QuadrantVS",
+    "title" : null,
+    "description" : "",
+    "systems" : ["http://gefyra.info/training/CodeSystem/QuadrantCS"],
+    "uses" : {
+    },
+    "StructureDefinition-Quadrant.html" : "Quadrant"
+  }]
+}

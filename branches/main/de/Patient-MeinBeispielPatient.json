@@ -1,0 +1,45 @@
+{
+  "resourceType" : "Patient",
+  "id" : "MeinBeispielPatient",
+  "meta" : {
+    "profile" : ["http://gefyra.info/training/StructureDefinition/MeinPatient"]
+  },
+  "language" : "de",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Patient MeinBeispielPatient</b></p><a name=\"MeinBeispielPatient\"> </a><a name=\"hcMeinBeispielPatient\"> </a><div style=\"display: inline-block; background-color: #fbffeb; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profil: <a href=\"StructureDefinition-MeinPatient.html\">MeinPatient</a></p></div><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\">Max Mustermann  Male, DoB: 2222-12-22 ( http://fhir.ufp/sid/ufp-citizen-id#12341kjhkjh12341423)</p><hr/><table class=\"grid\"><tr><td style=\"background-color: #f3f5da\" title=\"Ways to contact the Patient\">Contact Detail</td><td colspan=\"3\">Teststr. 4 Musterhausen 12345 </td></tr><tr><td style=\"background-color: #f3f5da\"><a href=\"StructureDefinition-Species.html\"/></td><td colspan=\"3\"><span title=\"Codes:{http://fhir.ufp/CodeSystem/species HS}\">Human</span></td></tr></table></div>"
+  },
+  "extension" : [{
+    "url" : "http://gefyra.info/training/StructureDefinition/Species",
+    "valueCodeableConcept" : {
+      "coding" : [{
+        "system" : "http://fhir.ufp/CodeSystem/species",
+        "code" : "HS",
+        "display" : "Human"
+      }]
+    }
+  }],
+  "identifier" : [{
+    "system" : "http://fhir.ufp/sid/ufp-citizen-id",
+    "value" : "12341kjhkjh12341423"
+  }],
+  "name" : [{
+    "family" : "Mustermann",
+    "given" : ["Max"]
+  }],
+  "gender" : "male",
+  "birthDate" : "2222-12-22",
+  "address" : [{
+    "extension" : [{
+      "url" : "http://gefyra.info/training/StructureDefinition/Planet",
+      "valueString" : "Erde"
+    },
+    {
+      "url" : "http://gefyra.info/training/StructureDefinition/Quadrant",
+      "valueCode" : "alpha"
+    }],
+    "line" : ["Teststr. 4"],
+    "city" : "Musterhausen",
+    "postalCode" : "12345"
+  }]
+}

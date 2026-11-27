@@ -1,0 +1,39 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "QuadrantCS",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem QuadrantCS</b></p><a name=\"QuadrantCS\"> </a><a name=\"hcQuadrantCS\"> </a><p>This  code system <code>http://gefyra.info/training/CodeSystem/QuadrantCS</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">alpha<a name=\"QuadrantCS-alpha\"> </a></td><td>Alpha-Quadrant</td></tr><tr><td style=\"white-space:nowrap\">beta<a name=\"QuadrantCS-beta\"> </a></td><td>Beta-Quadrant</td></tr><tr><td style=\"white-space:nowrap\">gamma<a name=\"QuadrantCS-gamma\"> </a></td><td>Gamma-Quadrant</td></tr><tr><td style=\"white-space:nowrap\">delta<a name=\"QuadrantCS-delta\"> </a></td><td>Delta-Quadrant</td></tr></table></div>"
+  },
+  "url" : "http://gefyra.info/training/CodeSystem/QuadrantCS",
+  "version" : "0.1.0",
+  "name" : "QuadrantCS",
+  "status" : "draft",
+  "date" : "2026-11-27T11:50:37+00:00",
+  "publisher" : "Gefyra GmbH",
+  "contact" : [{
+    "name" : "Gefyra GmbH",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://gefyra.info/"
+    }]
+  }],
+  "content" : "complete",
+  "count" : 4,
+  "concept" : [{
+    "code" : "alpha",
+    "display" : "Alpha-Quadrant"
+  },
+  {
+    "code" : "beta",
+    "display" : "Beta-Quadrant"
+  },
+  {
+    "code" : "gamma",
+    "display" : "Gamma-Quadrant"
+  },
+  {
+    "code" : "delta",
+    "display" : "Delta-Quadrant"
+  }]
+}

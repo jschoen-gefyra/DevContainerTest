@@ -1,0 +1,77 @@
+[{
+  "id" : "QuadrantCS",
+  "type" : "CodeSystem",
+  "url" : "http://gefyra.info/training/CodeSystem/QuadrantCS",
+  "version" : "0.1.0",
+  "name" : "QuadrantCS"
+},
+{
+  "id" : "info.gefyra.training",
+  "type" : "ImplementationGuide",
+  "url" : "http://gefyra.info/training/ImplementationGuide/info.gefyra.training",
+  "version" : "0.1.0",
+  "name" : "SchulungsIG"
+},
+{
+  "id" : "AdrTestTest",
+  "type" : "StructureDefinition",
+  "url" : "http://gefyra.info/training/StructureDefinition/AdrTestTest",
+  "version" : "0.1.0",
+  "name" : "AdrTestTest"
+},
+{
+  "id" : "Ex",
+  "type" : "StructureDefinition",
+  "url" : "http://gefyra.info/training/StructureDefinition/Ex",
+  "version" : "0.1.0",
+  "name" : "Ex"
+},
+{
+  "id" : "MeinPatient",
+  "type" : "StructureDefinition",
+  "url" : "http://gefyra.info/training/StructureDefinition/MeinPatient",
+  "version" : "0.1.0",
+  "name" : "MeinPatient"
+},
+{
+  "id" : "MeineAdresse",
+  "type" : "StructureDefinition",
+  "url" : "http://gefyra.info/training/StructureDefinition/MeineAdresse",
+  "version" : "0.1.0",
+  "name" : "MeineAdresse"
+},
+{
+  "id" : "MyPatient",
+  "type" : "StructureDefinition",
+  "url" : "http://gefyra.info/training/StructureDefinition/MyPatient",
+  "version" : "0.1.0",
+  "name" : "MyPatient"
+},
+{
+  "id" : "Planet",
+  "type" : "StructureDefinition",
+  "url" : "http://gefyra.info/training/StructureDefinition/Planet",
+  "version" : "0.1.0",
+  "name" : "Planet"
+},
+{
+  "id" : "Quadrant",
+  "type" : "StructureDefinition",
+  "url" : "http://gefyra.info/training/StructureDefinition/Quadrant",
+  "version" : "0.1.0",
+  "name" : "Quadrant"
+},
+{
+  "id" : "Species",
+  "type" : "StructureDefinition",
+  "url" : "http://gefyra.info/training/StructureDefinition/Species",
+  "version" : "0.1.0",
+  "name" : "Species"
+},
+{
+  "id" : "QuadrantVS",
+  "type" : "ValueSet",
+  "url" : "http://gefyra.info/training/ValueSet/QuadrantVS",
+  "version" : "0.1.0",
+  "name" : "QuadrantVS"
+}]
